@@ -1,52 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionCode="10"
-    android:versionName="1.0.0"
-    android:windowSoftInputMode="0x20"
-    android:installLocation="1"
-    package="a7pong.andyA7.edu.mit.scratch"
-    platformBuildVersionCode="25"
-    platformBuildVersionName="7.1.1">
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "a7pong.andyA7.edu.mit.scratch"
+    versionCode = "10"
+    version     = "1.0.0" >
 
-    <uses-sdk
-        android:minSdkVersion="14" />
+<!-- versionCode is optional and Android only -->
 
-    <supports-screens
-        android:anyDensity="true"
-        android:smallScreens="true"
-        android:normalScreens="true"
-        android:largeScreens="true"
-        android:resizeable="true"
-        android:xlargeScreens="true" />
+  <name>A7 Pong2.3</name>
 
-    <uses-permission
-        android:name="android.permission.INTERNET" />
+  <description>
+      An example for phonegap build docs.
+  </description>
 
-    <uses-permission
-        android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <author href="https://build.phonegap.com" email="dorigomarco013@gmail.com">
+      andyA7
+  </author>
 
-    <application
-        android:label="@ref/0x7f050001"
-        android:icon="@ref/0x7f030000"
-        android:debuggable="false"
-        android:hardwareAccelerated="true">
-
-        <activity
-            android:label="@ref/0x7f050001"
-            android:name="a7pong.andyA7.edu.mit.scratch.A7Pong1_2_2"
-            android:screenOrientation="-1"
-            android:configChanges="0x4b4"
-            android:windowSoftInputMode="0x0">
-
-            <intent-filter>
-
-                <action
-                    android:name="android.intent.action.MAIN" />
-
-                <category
-                    android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-</manifest>
+</widget>
